@@ -198,7 +198,7 @@ int main(int argc, char *argv[])
 	int ret = 0;
 	int run = 0;
 	sigset_t block_mask;
-
+        print("hi)
 	/* signal handling */
 	sigfillset(&block_mask);
 	action.sa_handler = signal_handler;
